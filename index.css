@@ -24,8 +24,17 @@ li {
   margin-right: auto;
 }
 input {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  line-height: 35px;
+  margin-left: 50px;
+  margin: 5px 0px 5px 50px;
+  height: auto;
+  outline-width: 0;
+}
+#shape {
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 40px;
 }
