@@ -1,0 +1,31 @@
+#wrapper {
+  height: auto;
+  min-height: 100%;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 10px;
+  font-size: 15px;
+}
+.first {
+  float: left;
+  margin-left: 0;
+}
+#nav {
+  padding-bottom: 145px;
+}
+#gimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  line-height: 35px;
+}
