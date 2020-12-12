@@ -5,45 +5,100 @@
   padding: 0px auto;
 }
 
-li {
-  display: inline;
-  float: right;
-  padding: 10px;
-  font-size: 15px;
-}
-.first {
-  float: left;
-  margin-left: 0;
-}
-#nav {
-  padding-bottom: 145px;
-}
 #gimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 input {
-  margin-left: 50px;
-  margin: 5px 0px 5px 50px;
-  height: auto;
-  outline-width: 0;
+  margin-left: 10px;
+  height: 25px;
+  width: 400px;
+  border: none;
+  outline: none;
+  margin-top: 2px;
+  font-size: medium;
+  font-style: arial;
 }
 #shape {
   border: 1px solid lightgray;
   border-radius: 25px;
-  width: 600px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 50px;
   height: 40px;
 }
-#btns {
-  height: 50px;
-  position: relative;
-  border: 3px solid green;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+
+#right {
+  word-spacing: 10px;
+  float: right;
+  margin: 15px 10px 0 10px;
+  font-size: 15px;
+}
+#left {
+  float: left;
+  word-spacing: 10px;
+  margin: 15px 0 0 10px;
+  font-size: 15px;
+}
+nav {
+  padding-bottom: 120px;
+}
+a {
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+}
+
+.submit {
+  text-align: center;
+  display: block;
+  outline: black;
+  padding: 30px;
+}
+.btn {
+  height: 35px;
+  width: 135px;
+  min-width: 50px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: Arial, sans-serif;
+  margin: 8px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  color: rgb(49, 53, 56);
+  border-radius: 5%;
+}
+#search {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: rgb(151, 159, 167);
+}
+#micro {
+  margin-top: 12px;
+  margin-right: 20px;
+  padding-left: 8px;
+  color: rgb(54, 131, 247);
+}
+#googimg {
+  border-radius: 50%;
+  display: block;
+}
+#apps {
+  display: block;
+}
+#right-items {
+  display: flex;
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: right;
+  align-items: center;
+  min-width: 200px;
+}
+#icon {
+  height: 30px;
+  width: 30px;
 }

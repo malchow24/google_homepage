@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
         <div id="wrapper">
             <div id="nav">
                 <nav id="nav-bar">
-                    <ul>
-                        <li class="first"><a href="/about.html"></a>About</li>
-                        <li class="first"><a href=""></a>Store</li> 
-                        <li><a href=""></a>Gmail</li>
-                        <li><a href=""></a>Images</li>
-                    </ul>
+                    <div id="left">
+                        <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                        <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                    </div>
+                    <div id="right-items">
+                        <div id="right">
+                        <a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl">Gmail</a>
+                        <a href="https://mail.google.com/mail">Images</a>
+                        </div>
+                        <div id="other-items">
+                        <div id="icon">
+                            
+                        </div>
+                        <div id="googimg">
+                        <img src="/images/google-pic.jpg" alt="#" id="googimg">
+                        </div>
+                    </div>
                 </nav>
             </div>
             <div id="img">
@@ -23,12 +35,14 @@
             </div>
             <div id="search-bar">
                 <div id="shape">
+                    <i class="fa fa-search" id="search"></i>
                     <input type="text">
+                    <i class="fa fa-microphone" id="micro"></i>
                 </div>
             </div>
             <div class="submit">
-                <button type="submit" class="search-btn">Google</button>
-                <button class="feelin-lucky">I'm Feeling Lucky</button>
+                <button type="submit" class="btn">Google</button>
+                <button class="btn">I'm Feeling Lucky</button>
             </div>
         </div>
 </body>
