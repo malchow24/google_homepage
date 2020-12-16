@@ -1,1 +1,3 @@
-This is a recreation of the Google Homepage
+Recreationg of the Google homepage for the Odin Project.
+
+HTML and CSS used only
