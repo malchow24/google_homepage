@@ -1,4 +1,4 @@
-Recreation of the Google homepage for the Odin Project.
+Recreation of the Google homepage
 
 HTML and CSS used only
 
