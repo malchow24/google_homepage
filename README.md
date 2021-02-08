@@ -1,4 +1,4 @@
-Recreation of the Google homepage
+Recreation of the Google homepage learning HTML and CSS
 
 Hosted on Netlify
 
