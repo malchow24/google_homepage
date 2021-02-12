@@ -1,6 +1,8 @@
-Recreation of the Google homepage learning HTML and CSS
+Recreation of the Google homepage
 
 Hosted on Netlify
+
+I made this project when I was learning basic HTML and CSS
 
 HTML and CSS used only
 
